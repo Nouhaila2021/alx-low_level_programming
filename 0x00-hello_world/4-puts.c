@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  * Description : print message  with puts function and return always 0
- * Description return : main return  Alawyss 0 (Sucesses)
+ *
+ * Return : main return  Alawyss 0 (Sucesses)
 */
 
 int main(void)
