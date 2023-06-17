@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description : print message  with printf function
+ * Description: "print message  with printf function."
  *
- * Return : Alawys 0 (Success)
+ * Return: Alawys 0 (Success).
 */
 
 int main(void)
