@@ -3,7 +3,7 @@
 /**
  * main- Entry Point
  *
- * Description: "Print alphabet in lowercase."
+ * Description: "Print alphabet in lowercase with putchar."
  *
  * Return: Always 0 (Success)
  *
