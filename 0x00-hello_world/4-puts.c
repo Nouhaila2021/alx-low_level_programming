@@ -2,9 +2,10 @@
 
 /**
  * main - Entry point
- * Description : print message  with puts function and return always 0
  *
- * Return : main return  Alawyss 0 (Sucesses)
+ * Description: "print message  with puts function".
+ *
+ * Return: Alawys 0 (Success)
 */
 
 int main(void)
