@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-i#include <stdlib.h>
+#include <stdlib.h>
 
 /**
  * main - Entry Point
@@ -27,7 +27,8 @@ int main(void)
 	}
 	else if (Last_digit < 6 && Last_digit != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, Last_digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",
+		 n, Last_digit);
 	}
 	return (0);
 }
