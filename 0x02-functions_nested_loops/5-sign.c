@@ -1,11 +1,11 @@
 #include"main.h"
 /**
- * _print_sign - check if alphabet is lowercase or uppercase
+ * print_sign - check if alphabet is lowercase or uppercase
  *                  a-z
  * @n: input for _print_sign function
  * Return: 1 if n positive  -1 if negative and 0 if 0
 */
-int _print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
