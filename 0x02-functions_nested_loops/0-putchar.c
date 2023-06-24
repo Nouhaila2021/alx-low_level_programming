@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * main - Entry Point
  * Description: writes the character c to stdout
  * Return: Always 0 (Succes)
- *     
 */
 int main(void)
 {
