@@ -1,4 +1,3 @@
-#include<unistd.h>
 #include "main.h"
 
 /**
@@ -9,10 +8,7 @@
  *         on error, -1 is returned, and erno is set appropriately
 */
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+
 int main(void)
 {
 
