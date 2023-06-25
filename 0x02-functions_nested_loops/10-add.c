@@ -3,7 +3,7 @@
  * add - add function
  * @m: input for add function
  * @n: input for add  function
- * Return: Always 0 (Success)
+ * Return: sum of 2 int
 */
 int add(int n, int m)
 {
