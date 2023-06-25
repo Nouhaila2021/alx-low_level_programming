@@ -5,15 +5,15 @@
  * @n: input for add  function
  *
 */
-void print_to__98(int n)
+void print_to_98(int n)
 {
 	int i;
 
 	for (i = n; i <= 98; i++)
 	{
 		printf("%d", i);
-		printf(' ');
-		printf(',');
+		_putchar(' ');
+		_putchar(',');
 	}
 
 }
