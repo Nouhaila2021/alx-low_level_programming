@@ -8,12 +8,21 @@
 void print_to_98(int n)
 {
 	int i;
+	int j = 98;
 
-	for (i = n; i <= 98; i++)
+	for (i = n; i <= j; i++)
 	{
-		printf("%d", i);
-		_putchar(' ');
-		_putchar(',');
+		if (i != j)
+		{
+
+			printf("%d", i);
+			_putchar(' ');
+			_putchar(',');
+		}
+		else
+		{
+			 printf("%d", j);
+		}
 	}
 
 }
