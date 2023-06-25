@@ -5,19 +5,39 @@
  * @n: input for add  function
  *
 */
+
 void print_to_98(int n)
 {
-	int i;
-	int j = 98;
+	int i, j = 98;
 
-	for (i = n; i <= j; i++)
+	if (n < j)
 	{
 
-		printf("%d", i);
-		_putchar(' ');
-		_putchar(',');
+		for (i = n; i <= j; i++)
+		{
+			if (i != j)
+			{
 
+				printf("%d", i);
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+				printf("%d", j);
+		}
 	}
-
+	else
+	{
+		for (i = n; n >= j; i--)
+		{
+			if (i != j)
+			{
+				printf("%d", i);
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+				printf("%d", j);
+		}
 }
 
