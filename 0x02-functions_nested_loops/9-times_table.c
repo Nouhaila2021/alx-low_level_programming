@@ -2,7 +2,7 @@
 /**
  * times_tables - print every minute of the day
 */
-void times_tables(void)
+void times_table(void)
 {
 	int i, j;
 
