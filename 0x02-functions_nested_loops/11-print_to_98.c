@@ -13,16 +13,10 @@ void print_to_98(int n)
 	for (i = n; i <= j; i++)
 	{
 
-		if (i == j)
-		{
-			printf("%d", j);
-		}
-		else
-		{
-			printf("%d", i);
-                        _putchar(' ');
-                        _putchar(',');
-		}
+		printf("%d", i);
+		_putchar(' ');
+		_putchar(',');
+
 	}
 
 }
