@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _puts - function print a string followed by new line
+ * print_rev - function print a string in reverse followed by new line
  *
- * @s : input for _puts
+ * @s : input for print_rev
  *
  * Return: Nothing
  *
 */
 
-void _puts(char *s)
+void print_rev(char *s)
 {
 
 	int i = 0;
