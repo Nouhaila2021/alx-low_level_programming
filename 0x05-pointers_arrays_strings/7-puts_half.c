@@ -14,9 +14,10 @@ void puts_half(char *s)
 
 	int l, i;
 
-	for (l = 0; s[l] != '\0'; ++l)
+	for (i = 0; s[i] != '\0'; ++i)
 		;
-	for (i = ((l / 2) + 1); i < l ; i++)
+	i++;
+	for (i /= 2; s[i] != '\0' ; i++)
 	{
 		_putchar(s[i]);
 	}
