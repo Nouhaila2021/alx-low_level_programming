@@ -12,7 +12,7 @@
 void puts_half(char *s)
 {
 
-	int l, i;
+	int i;
 
 	for (i = 0; s[i] != '\0'; ++i)
 		;
