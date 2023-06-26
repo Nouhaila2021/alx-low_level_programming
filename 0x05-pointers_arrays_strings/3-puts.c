@@ -12,10 +12,7 @@
 void _puts(char *s)
 {
 
-	int i, j;
-
-
-	for (i = 0; i <= strlen(s); s++)
-		_putchar(*(s + i));
-
+	while (*s != '\0')
+		_putchar(*s + 0);
+		s++;
 }
